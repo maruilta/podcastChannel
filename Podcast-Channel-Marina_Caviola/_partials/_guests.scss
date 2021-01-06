@@ -1,0 +1,50 @@
+.invitadas{
+    background-color: $blanco;
+
+    .inv-h2{
+        font-family: $ibmsans;
+        font-size: 48px;
+        color: $oscuro;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin: 36px 200px;
+    }
+    .inv-img-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        .inv-img{
+            width: 422px;
+            height: auto;
+            margin-top: -5px;
+        }
+    }
+}
+ 
+@media screen and (max-width:767px){
+    .invitadas{
+        .inv-h2{
+            font-family: $ibmsans;
+            font-size: 36px;
+            color: $oscuro;
+            letter-spacing: 0;
+            line-height: 42px;
+            height: 84px;  
+            margin: 27px 16px 8px 16px;
+         }
+    .inv-img-container{
+            display: block;
+            width: 100%;
+
+        .inv-img{
+            width: 100%;
+            height: auto;
+            margin-top: -5px;
+        }
+    }
+}
+}
+   
+
+ 

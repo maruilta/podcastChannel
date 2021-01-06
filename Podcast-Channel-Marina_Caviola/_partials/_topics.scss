@@ -1,0 +1,68 @@
+.topics{
+    background-color: $blanco;
+    .topics-h2{
+        font-family: $ibmsans;
+        font-size: 48px;
+        color: $oscuro;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin: 56px 200px;
+    }
+    .topics-container {
+        display: flex;
+        margin-bottom: 200px;
+        justify-content: center;
+        text-align: center;
+        .topic{
+            font-family: $ibmsans;
+            font-weight: 600;
+            font-size: 24px;
+            color: $oscuro;
+            letter-spacing: 0;
+            width: 260px;
+            .t-img {
+                justify-content: center;
+                }
+            .p-topics{
+                margin-top: 29px;
+            }
+         }
+        }
+}
+
+@media screen and (max-width:767px){
+    .topics{
+        .topics-h2{
+            font-family: $ibmsans;
+            font-size: 36px;
+            color: $oscuro;
+            letter-spacing: 0;
+            line-height: 42px;
+            height: 84px;  
+            margin: 27px 16px 24px 16px;
+        }
+        .topics-container {
+            display: block;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 100px;
+            .topic {
+                font-family: $ibmsans;
+                font-weight: 600;
+                font-size: 24px;
+                color: $oscuro;
+                letter-spacing: 0;
+                width: auto;   
+                .t-img{
+                    justify-content: center;
+                }
+                .p-topics{
+                    margin-top: 20px;
+                    margin-bottom: 60px;
+                    width: auto;
+                    text-align: center;
+                }
+             }
+        }      
+}
+}

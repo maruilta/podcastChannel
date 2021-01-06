@@ -1,0 +1,129 @@
+<!-- Proyecto Podcast Channel - Marina Caviola - Grupo DWFS-COR-GLOB-3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Links CSS -->
+    <link rel="stylesheet" href="styles.css">
+<!-- Links Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<!-- Links Íconos - tomados de la documentación de w3schools-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Podcast Channel</title>
+</head>
+
+<body>
+<!-- Header -->
+<header class="header" id="header">
+    <!-- Nav Bar + Menu Hamburguesa -->
+    <nav class="navbar">
+        <!-- Logo -->
+        <img class="logo" src="img/logo.svg" alt="Logo Blue Dot">
+        <!-- Menu -->
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span> </label>
+        <ul class="menu">
+            <li><a href="#episodios">Episodios</a></li>
+            <li><a href="#origenes">Nosotros</a></li>
+            <li><a href="#invitadas">Entrevistas</a></li>
+            <li><a href="#topicos">Tópicos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Episodios: Top & Bottom -->
+    <section class="hello">
+        <h1 class="fadeIn">Hello <span class="world">world</span> pale blue dot<span class="dot">.</span></h1>
+        <p class="hello-p">El portal de podcasts que explora el mundo de la programación y <br> la tecnología. Nuevos episodios, todos
+            los jueves cada 15 días. </p>
+        <button class="hello-button">CONOCÉ MÁS</button>
+    </section>
+    <section class="episodes" id="episodios">
+        <div class="episodes-background"></div>
+        <h2 class="episodes-h2">Episodios</h2>
+        <div class="container-iframes">
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+                allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                allow="encrypted-media"></iframe>
+        </div>
+    </section>
+
+<!-- Orígenes -->
+    <section class="from" id="origenes">
+        <figure>
+            <img class="from-img" src="img/phone.png" alt="Teléfono">
+        </figure>
+        <div class="from-description">
+            <h2>De dónde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light. <br>
+                <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+    </section>
+
+<!-- Invitadas -->
+    <section class="invitadas" id="invitadas">
+        <h2 class="inv-h2">Invitadas/os estelares</h2>
+        <div class="inv-img-container">
+            <figure><img class="inv-img" src="img/grace-hopper.png" alt="Grace Hopper"></figure>
+            <figure><img class="inv-img" src="img/Katie-Bouman.png" alt="Katie Bouman"></figure>
+            <figure><img class="inv-img" src="img/Margaret_Hamilton.png" alt="Margaret Hamilton"></figure>
+            <figure><img class="inv-img" src="img/era1950.png" alt="Univac"></figure>
+            <figure><img class="inv-img" src="img/computeroperatos.png" alt="Eniac"></figure>
+            <figure><img class="inv-img" src="img/susan-kare.png" alt="Susan Kare"></figure>
+        </div>
+    </section>
+
+<!-- Temas -->
+    <section class="topics" id="topicos">
+        <h2 class="topics-h2">Algunos de nuestros temas</h2>
+        <div class="topics-container">
+            <div class="topic">
+                <img src="img/icon1.svg" alt="Trabajo Remoto">
+                <p class="p-topics">Trabajo remoto</p>
+            </div>
+            <div class="topic">
+                <img class="t-img" src="img/icon2.svg" alt="Programación">
+                <p class="p-topics">Repensando la programación</p>
+            </div>
+            <div class="topic">
+                <img class="t-img" src="img/icon3.svg" alt="Código">
+                <p class="p-topics">Bases del código</p>
+            </div>
+            <div class="topic">
+                <img class="t-img" src="img/icon4.svg" alt="Seguridad">
+                <p class="p-topics">Seguridad informatica</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Novedades -->
+    <section class="novedades">
+        <h2 class="nov-h2">¿Querés las últimas novedades?</h2>
+        <button class="nov-button">ESCUCHÁ LOS EPISODIOS</button>
+    </section>
+
+<!-- Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-p">@ 2019 - Hello blue pale dot</p>
+            <div class="footer-media">
+                <a href="https://www.spotify.com/ar/"><i class="fab fa-spotify" id="spotify"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram" id="instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter" id="twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook" id="facebook"></i></a>
+                <a href="https://web.telegram.org/"><i class="fab fa-telegram" id="telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<!-- Julio - Agosto 2020 -->

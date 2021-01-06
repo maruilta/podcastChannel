@@ -1,0 +1,25 @@
+@import '_partials/variables';
+@import '_partials/header';
+@import '_partials/episodios';
+@import '_partials/from';
+@import '_partials/guests';
+@import '_partials/topics';
+@import '_partials/novedades';
+@import '_partials/footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+html {
+    background-color: $blanco; 
+}
+
+body {
+    overflow-x: hidden;
+ } 
+
+   
